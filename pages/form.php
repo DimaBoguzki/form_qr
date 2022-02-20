@@ -42,7 +42,7 @@
   </head>
   <body>
     <div class="container">
-      <form action="../form_user/inserUser.php" method="POST"  onsubmit="return validateForm();">
+      <form action="../form_qr-main/inserUser.php" method="POST"  onsubmit="return validateForm();">
         <ul>
           <li>
             <h4>שם : </h4>
@@ -51,7 +51,6 @@
               type="text" 
               name="name"
               placeholder="שם"
-              value="Dima"
             >
           </li>
           <li>
@@ -61,7 +60,6 @@
               type="text" 
               name="phone"
               placeholder="טלפון"
-              value="0545738557"
             >
           </li>
           <li>
@@ -71,7 +69,6 @@
               type="text" 
               name="mail"
               placeholder="מייל"
-              value="d@s.sd"
             >
           </li>
           <li style="text-align:center;margin:32px 0;">
