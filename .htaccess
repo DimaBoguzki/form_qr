@@ -1,7 +1,7 @@
 RewriteEngine On
 
 #website location
-RewriteBase /form_user/
+RewriteBase /form_qr-main/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
